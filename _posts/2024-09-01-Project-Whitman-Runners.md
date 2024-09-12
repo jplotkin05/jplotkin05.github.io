@@ -5,7 +5,7 @@ title:  "Project: Whitman Runners"
 [Click Here for Repo](https://github.com/jplotkin05/vikingxctf)
 
 ## Purpose
-This was one of my very first projects that I developed independently back in 2021 (Looks very messy under the hood). I developed this site to allow athletes from my high school to track their cross country and track performances and progress. 
+This was one of my very first projects that I developed independently back in 2021. I developed this site to allow athletes from my high school to track their cross country and track performances and progress. 
 ## What does it do?
 Users can search for individual athlete profiles, rank athletes based on event, class, and or season. They can also search for race results from different competitions and view custom articles. Additionally, there is a page for users to view current and future weather conditions. What makes this different from traditional weather forecasts is that I developed a "Run Index" which is a score out of 5 on how optimal it is to run. I tried to be as objective as possible with setting this metric up based on extensive research each athlete will always have their own preferences. I am thinking of implemented a large language model to gauge user preferences and generate a dynamic score based on user desires. 
 
