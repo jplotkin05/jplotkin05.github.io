@@ -16,15 +16,15 @@ I managed to gain access to the laundry system API and from there, I developed t
 ## What does it do?
 The application allows for users to view current status of laundry machines at any particular laundry room at the University of Maryland.
 
-![Machine Tracking Page](./track.png)
+![Machine Tracking Page](track.png)
 *Figure 1: Interface for viewing machine status in a laundry room. User can also leave a review for the room.*
 
 Users can also view helpful insights on what day most people do their laundry and what time. They can see which dorms do the most laundry and how long people leave their laundry in the machines.
-![Insights Page](./insights.png)
+![Insights Page](insights.png)
 *Figure 2: This page displays various insights on when and where most laundry takes place.*
 
 A basic feature that adds sort of a competitive edge to laundry is on the home page where a daily leaderboard ranks laundry rooms by most loads per machine.
-![Home Page](./leaderboard.png)
+![Home Page](leaderboard.png)
 *Figure 3: Home page with daily laundry leaderboard feature.*
 
 ## Technical Details
