@@ -2,7 +2,7 @@
 layout: post
 title:  "Project: TestDoYoLaundry"
 ---
-[Link to site ](www.testdoyolaundry.com)
+[Link to site](https://www.testdoyolaundry.com)
 
 ## Background
 During the fall semester of my freshman year, I noticed that the washer and driers in my dorm had some "smart features." 
