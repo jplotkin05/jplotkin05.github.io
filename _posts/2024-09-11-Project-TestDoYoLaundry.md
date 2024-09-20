@@ -16,16 +16,9 @@ I managed to gain access to the laundry system API and from there, I developed t
 ## What does it do?
 The application allows for users to view current status of laundry machines at any particular laundry room at the University of Maryland.
 
-![Machine Tracking Page](/track.png)
-*Figure 1: Interface for viewing machine status in a laundry room. User can also leave a review for the room.*
-
 Users can also view helpful insights on what day most people do their laundry and what time. They can see which dorms do the most laundry and how long people leave their laundry in the machines.
-![Insights Page](/insights.png)
-*Figure 2: This page displays various insights on when and where most laundry takes place.*
 
 A basic feature that adds sort of a competitive edge to laundry is on the home page where a daily leaderboard ranks laundry rooms by most loads per machine.
-![Home Page](/leaderboard.png)
-*Figure 3: Home page with daily laundry leaderboard feature.*
 
 ## Technical Details
 This application pulls out my knowledge from my project first project. This site is written with HTML/CSS/JS and PHP. The entire site is powered by a Linux, [Apache, MySQL, PHP (LAMP) software bundle](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) on a Google Cloud Server running on Ubuntu. All the data comes from a data stream by the laundry company and is stored into a MYSQL relational database. A script created in Rust formats the data from the stream accordingly and inserts it into the database. For additional details, please contact me.
