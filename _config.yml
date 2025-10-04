@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Jonah Plotkin # the main title
 
-tagline: Be the one to make it happen! # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   The works of Jonah Plotkin!
@@ -97,7 +97,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/profilepic.jpeg
+avatar: assets/profilepic.JPG
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
