@@ -9,6 +9,4 @@ order: 4
 
 
 
-Well I see you want to know more about me! My name is Jonah. I am currently an undergraduate student at the University of Maryland pursuing a BS in Computer Science with a minor in General Business. In my free time I train for competetive running competitions, enjoy the outdoors, and bring ideas to life through programming! I am currently working on manipulating large language models (LLM) to produce several advanced user tools.
-
-Btw, I love classic rock 🎸
+Well I see you want to know more about me! My name is Jonah. I am currently an undergraduate student at the University of Maryland pursuing a bachelors of science in Computer Science with a minor in General Business & Data Science. Outside of academics I run competitively, ski, sail, swim, hike, listen to rock, and bring ideas to life through programming! I am currently researching methods to apply large language models to automate tasks in backend services.
