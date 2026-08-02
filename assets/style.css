@@ -62,15 +62,15 @@
 /* Dark Mode Color Overrides */
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #111111;
-        --heading-color: #FFFFFF;
-        --text-color: #EEEEEE;
-        --link-color: #FFFFFF;
-        --visited-color: #BBBBBB;
-        --main-color: #CCCCCC;
-        --code-background-color: #1E1E1E;
-        --code-color: #EEEEEE;
-        --blockquote-color: #777777;
+        --background-color: #FFFFFF;
+    --heading-color: #000000;
+    --text-color: #111111;
+    --link-color: #000000;
+    --visited-color: #555555;
+    --main-color: #333333;
+    --code-background-color: #F2F2F2;
+    --code-color: #111111;
+    --blockquote-color: #888888;
 
         /* Dark mode glow effects */
         --glow-color-light: rgba(255, 255, 255, 0.15);
