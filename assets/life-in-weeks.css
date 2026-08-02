@@ -16,22 +16,6 @@
     --event-future-opacity: 0.6;
 }
 
-/* Dark mode decade adjustments */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --decade-0-bg: var(--background-color);
-        --decade-1-bg: var(--code-background-color);
-        --decade-0-opacity: 1;
-        --decade-1-opacity: 0.8;
-        --decade-future-opacity: 0.2;
-        
-        /* Event colors for dark mode */
-        --event-bg: var(--link-color);
-        --event-border: var(--main-color);
-        --event-future-opacity: 0.7;
-    }
-}
-
 /* =============================================================================
    LIFE IN WEEKS - STANDALONE CSS MODULE
    ============================================================================= */
@@ -142,17 +126,6 @@
     }
 }
 
-/* Dark Mode Week Adjustments */
-@media (prefers-color-scheme: dark) {
-    .week.current {
-        box-shadow: 0 0 10px var(--glow-color-light);
-    }
-    
-    .week.current.has-events {
-        box-shadow: 0 0 10px var(--glow-color-medium);
-    }
-}
-
 /* =============================================================================
    LIFE IN WEEKS - INTERACTIVE COMPONENTS
    ============================================================================= */
@@ -186,7 +159,7 @@
 .event-item {
     margin: var(--spacing-sm) 0;
     padding: 8px 0;
-    border-bottom: 1px dotted var(--blockquote-color);
+    border-bottom: 1px solid var(--blockquote-color);
     font-size: 0.9em;
     line-height: 1.4;
 }

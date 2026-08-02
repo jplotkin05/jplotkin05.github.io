@@ -10,6 +10,9 @@
    ============================================================================= */
 
 :root {
+    /* Force light rendering for form controls, scrollbars, etc. */
+    color-scheme: light;
+
     /* Layout */
     --width: 720px;
 
@@ -38,7 +41,7 @@
     --z-dropdown: 200;
     --z-modal: 1000;
     
-    /* Neutral Theme Colors - Light Mode */
+    /* Neutral Theme Colors - Light Mode (light only; no dark overrides) */
     --background-color: #FFFFFF;
     --heading-color: #000000;
     --text-color: #111111;
@@ -57,25 +60,6 @@
     /* Glow effects for interactive elements */
     --glow-color-light: rgba(0, 0, 0, 0.15);
     --glow-color-medium: rgba(0, 0, 0, 0.3);
-}
-
-/* Dark Mode Color Overrides */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #111111;
-        --heading-color: #FFFFFF;
-        --text-color: #EEEEEE;
-        --link-color: #FFFFFF;
-        --visited-color: #BBBBBB;
-        --main-color: #CCCCCC;
-        --code-background-color: #1E1E1E;
-        --code-color: #EEEEEE;
-        --blockquote-color: #777777;
-
-        /* Dark mode glow effects */
-        --glow-color-light: rgba(255, 255, 255, 0.15);
-        --glow-color-medium: rgba(255, 255, 255, 0.3);
-    }
 }
 
 /* =============================================================================
@@ -153,7 +137,6 @@ a[href^="http"]:where(:not([href*="knhash.in/"])):not(:has(img))::after {
 header {
     margin-bottom: var(--spacing-lg);
     padding-bottom: var(--spacing-md);
-    border-bottom: 3px dotted var(--main-color);
 }
 
 nav a {
@@ -166,7 +149,6 @@ main {
 
 footer {
     margin-top: var(--spacing-lg);
-    border-top: 3px dotted var(--main-color);
     padding: 25px 0;
     text-align: center;
 }
@@ -181,7 +163,7 @@ footer > span:has(a[href="https://bearblog.dev"]) {
 
 hr {
     border: 0;
-    border-top: 1px dashed var(--border-color);
+    border-top: 1px solid var(--border-color);
 }
 
 img {
