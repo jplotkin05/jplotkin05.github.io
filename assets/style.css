@@ -40,16 +40,16 @@
     --z-dropdown: 200;
     --z-modal: 1000;
     
-    /* Classic Blue Theme Colors - Light Mode */
+    /* Neutral Theme Colors - Light Mode */
     --background-color: #FFFFFF;
-    --heading-color: #111827;
-    --text-color: #1F2937;
-    --link-color: #1D4ED8;
-    --visited-color: #6D28D9;
-    --main-color: #2563EB;
-    --code-background-color: #F3F4F6;
-    --code-color: #111827;
-    --blockquote-color: #6B7280;
+    --heading-color: #000000;
+    --text-color: #111111;
+    --link-color: #000000;
+    --visited-color: #555555;
+    --main-color: #333333;
+    --code-background-color: #F2F2F2;
+    --code-color: #111111;
+    --blockquote-color: #888888;
 
     /* Interactive colors derived from theme */
     --hover-color: white;
@@ -57,26 +57,26 @@
     --shadow-color: rgba(0, 0, 0, 0.18);
 
     /* Glow effects for interactive elements */
-    --glow-color-light: rgba(29, 78, 216, 0.3);
-    --glow-color-medium: rgba(29, 78, 216, 0.5);
+    --glow-color-light: rgba(0, 0, 0, 0.15);
+    --glow-color-medium: rgba(0, 0, 0, 0.3);
 }
 
 /* Dark Mode Color Overrides */
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #0B1220;
-        --heading-color: #E5E7EB;
-        --text-color: #D1D5DB;
-        --link-color: #60A5FA;
-        --visited-color: #A78BFA;
-        --main-color: #3B82F6;
-        --code-background-color: #111827;
-        --code-color: #E5E7EB;
-        --blockquote-color: #6B7280;
+        --background-color: #111111;
+        --heading-color: #FFFFFF;
+        --text-color: #EEEEEE;
+        --link-color: #FFFFFF;
+        --visited-color: #BBBBBB;
+        --main-color: #CCCCCC;
+        --code-background-color: #1E1E1E;
+        --code-color: #EEEEEE;
+        --blockquote-color: #777777;
 
         /* Dark mode glow effects */
-        --glow-color-light: rgba(96, 165, 250, 0.3);
-        --glow-color-medium: rgba(96, 165, 250, 0.5);
+        --glow-color-light: rgba(255, 255, 255, 0.15);
+        --glow-color-medium: rgba(255, 255, 255, 0.3);
     }
 }
 
