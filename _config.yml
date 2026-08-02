@@ -1,8 +1,8 @@
 ###########
 # site.title
 
-title: Joanh P.
-description: publications of Jonah Plotkin
+title: Jonah P
+description: publications from Jonah
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://jplotkin05.github.io" # the base hostname & protocol for your site
 # host: 0.0.0.0
