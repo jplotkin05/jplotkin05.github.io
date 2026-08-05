@@ -1,12 +1,10 @@
-
-
 ---
 
 layout: post
 
 title: Building a Virtual Storm Chaster with AWS
 
-subtitle: Link to official article & demo
+subtitle: Link to published article & demo
 
 date: 2026-08-05 09:30
 
@@ -15,9 +13,6 @@ tags:
 - general
 
 - tinker
-
-  
-
 ---
 
   
