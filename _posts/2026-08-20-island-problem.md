@@ -106,10 +106,10 @@ def find_islands(grid):
 	
 	
 	def explore_island(location):
-		upper_bounds = -1 
-		lower_bounds = len(grid)
-		left_bounds = -1
-		right_bounds = len(grid[0])
+		upper_bounds = 0
+		lower_bounds = len(grid)-1
+		left_bounds = 0
+		right_bounds = len(grid[0])-1
 		
 	return
 	
